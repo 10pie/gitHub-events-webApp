@@ -51,7 +51,7 @@
                 <version>1.2.1</version>
                 <configuration>
                     <!-- FIXED: Using dynamic path so it doesn't break -->
-                    <sourceDirectory>${basedir}/src/main/resources/userActivity.json</sourceDirectory>
+                    <sourceDirectory>${basedir}/src/main/resources/exampleuserActivity.json</sourceDirectory>
                     <targetPackage>com.example.generatedClass</targetPackage>
                     <sourceType>json</sourceType>
                     <annotationStyle>jackson2</annotationStyle>
